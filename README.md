@@ -6,15 +6,14 @@ Haversine formula. No UI: test it with Swagger UI or Postman.
 
 | | |
 |---|---|
-| Live URL | _add deployed URL here_ |
-| Swagger UI | `<live-url>/swagger-ui.html` |
-| OpenAPI JSON | `<live-url>/v3/api-docs` |
+| Live URL |https://dispatch-load-balancer-b8wa.onrender.com|
+| Swagger UI | https://dispatch-load-balancer-b8wa.onrender.com/swagger-ui/index.html|
 | Loom walkthrough | _add Loom link here_ |
 
 ## Tech stack
 
 Java 21, Spring Boot 3.3, Spring Data JPA, Bean Validation, springdoc-openapi (Swagger),
-H2 (default, in-memory) or PostgreSQL, JUnit 5, AssertJ, Mockito, JaCoCo.
+PostgreSQL, JUnit 5, AssertJ, Mockito.
 
 ## Run locally
 
@@ -26,8 +25,6 @@ mvn spring-boot:run
 
 * API: http://localhost:8080
 * Swagger UI: http://localhost:8080/swagger-ui.html
-
-No database setup is needed; it starts with an in-memory H2 database (data is lost on restart).
 
 ### Use PostgreSQL
 
